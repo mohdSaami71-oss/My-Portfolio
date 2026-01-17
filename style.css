@@ -1,0 +1,619 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+li {
+    list-style-type: none;
+    margin: 0, 23px;
+    padding: 0;
+    color: aliceblue;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    background: linear-gradient(
+  to right,
+  #050505,
+  #121826,
+  #1a1f3b,
+  #0b1020
+);
+
+    padding-bottom: 0;
+    margin: 0;
+    border: 0;
+    height: 70px;
+}
+
+body {
+    background: linear-gradient(
+        to right,
+        #050505,
+        #121826,
+        #1a1f3b,
+        #0b1020
+      );
+     
+    margin: 0;
+}
+
+.left {
+    color: aliceblue;
+    font-size: 1.8rem;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.LeftSection {
+    color: rgb(239, 243, 247);
+    /* background-color: aqua; */
+    width: 30%;
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-left: 40px;
+}
+
+.RightSection {
+    color: aliceblue;
+    width: 30%;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.RightSection img {
+    width: 110%;
+    margin-top: 30px;
+}
+
+.FirstSection div {
+    width: 30%;
+}
+
+.purple {
+    color: rgba(250, 255, 254, 0.628);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(244, 241, 241);
+}
+
+nav ul li a:hover {
+    color: rgb(240, 53, 169);
+}
+
+
+
+
+
+/* .SecondSection {
+    display: flex;
+    min-height: auto;
+    /* background-image: url(bodam2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+      /* background-image: url(bg-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+} */ 
+
+
+.FirstSection {
+    margin-bottom: 15px;
+}
+
+main hr {
+    height: 1.2px;
+    background-color: rgb(44, 15, 150);
+    border: 0;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.el {
+    font-size: 42px;
+    font-weight: bolder;
+    color: white;
+}
+
+/* .SecondSection .Logo img {
+    width: 100px;
+    margin-top: 2px;
+    margin-left: 45%;
+}
+
+.SecondSection h1 {
+    display: flex;
+    
+    color: rgb(255, 255, 255);
+
+    font-weight: bold;
+   justify-content: center;
+    margin: auto;
+    /* height: max-content; */
+    /* margin-top: 0px;
+    /* background-color: rgb(0, 0, 0); */
+    /* font-family: sans-serif;
+    text-transform: uppercase; */
+    /* transform: rotate(-3deg); */
+    /* padding-top: 0;
+    /* width: 14.5%; */
+    /* padding-right: 0%;
+   margin-bottom: 0%; */
+ 
+
+header nav img {
+    width: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+
+}
+
+.ele {
+    color: rgb(148, 230, 97);
+}
+
+.ThirdSection {
+    /* min-height: 352px; */
+    background: linear-gradient(
+        to right,
+        #050505,
+        #121826,
+        #1a1f3b,
+        #0b1020
+      );
+
+}
+
+
+
+.skills {
+    color: rgb(68, 236, 71);
+
+}
+
+.projects {
+    color: rgb(68, 236, 71);
+}
+
+.FourthSection {
+  
+    align-items: center;
+    min-height: 50px;
+    font-size: larger;
+    background-color: linear-gradient(135deg, #040819, #0f172a);
+}
+
+.fifthAbout {
+    color: rgb(231, 208, 208);
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 98px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.FifthSection {
+    color: rgb(68, 236, 71);
+        display: flex;
+        flex-direction: column;
+    font-size: 20px;
+    min-height: 400px;
+   
+}    
+.Me{
+    color: rgb(255, 254, 254);
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+   font-weight: bolder;
+   padding-left: 429px;
+   background-color: #000000;
+   font-weight: bold;
+}
+.resume{
+    color: rgb(243, 245, 245);
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+  
+}
+.FourthKaLeft{
+    padding-left: 0px;
+margin-right: 200px;
+font-size: 20px;
+font-weight: bolder;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.FourthKaRight{
+    padding-right: 60px;
+}
+.SixthSection{
+    min-height: 200px;
+}
+
+.SecondSection h6{
+    color:rgb(255, 255, 255);
+}
+.upper{
+    color: wheat;
+    font-size:large;
+    padding-left: 20px;
+   
+}
+.as{
+    font-size: 3.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ef4343;
+}
+.linkedin-btn {
+    display: inline-block;
+    padding: 5px 10;
+    background-color: #172917;
+    color: #5ca0a7;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 45px;
+    font-size: 27px;
+}
+.github-btn {
+    display: inline-block;
+    padding: 5px 10;
+    background-color: #7e3304;
+    color: #a9cfaa;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 45px;
+    font-size: 27px;
+    margin-left: 17px;
+}
+.saami{
+    font-size: 3rem;
+    color: #cc3b33;
+    font-style: italic;
+}
+.skill {
+    font-size: 28px;
+    margin-top: 27px;
+    padding-top: 2px;
+    color: rgb(231, 208, 208);
+}
+
+.skl {
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.SeventhSection img {
+    height: 80px;
+    width: 80px;
+    border-radius: 26px;
+}
+.SeventhSection{
+    min-height: 90px;
+}
+.EightSection{
+    min-height: 400px;
+    /* display: flex;  */
+    /* flex-direction: column; */ 
+}
+.hire{
+    color: white;
+    font-size: 29px;
+    padding-left: 165px;
+}
+.ThirdPointFive{
+ color: white;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 1.5rem;
+    background-image: url(pr-2.jpg);
+}
+.ThirdPointFive h3 {
+  margin-bottom: 16px;
+     padding-left: 421px;
+}
+
+.ThirdPointFive p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif; 
+  padding-left: 115px;
+}
+.ThirdPointFive a{
+    margin-top: 0;
+    padding-left: 449px;
+
+}
+.ThirdPointFive h2{
+    text-align: center;
+    font-size: 53px;
+}
+#pheading{
+    background-color: rgb(0, 0, 0);
+}
+.footer {
+    font-weight: bold;
+    color: white;
+    min-height: 200px;
+    height: auto;
+  background-size: contain;
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.5rem;
+    background-image: url(bodam-footer.jpg);
+}
+.ThirdPointFive a:hover{
+ transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  transition: 0.3s ease;
+}
+
+.github-btn:hover, .linkedin-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  transition: 0.3s ease;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.footer img:hover{
+    transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  transition: 0.3s ease; 
+}
+.name{
+    color: #868681;
+    margin-top: 0;
+}
+.nam{
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+.ProjectsSection {
+  padding: 80px 10%;
+  background: #0f172a; /* dark modern background */
+  color: #e5e7eb;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: #020617;
+  border-radius: 16px;
+  padding: 30px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.project-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #cbd5f5;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(56, 189, 248, 0.15);
+}
+
+
+
+.ProjectsSection {
+  display: block;
+  text-align: center;
+}
+
+.ProjectsSection .section-title {
+  text-align: center;
+  margin: 0 auto 50px auto;
+}
+
+
+
+.SecondSection {
+  padding: 60px 10%;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #cbd5f5;
+}
+.click{
+    color: white;
+    font-style: italic;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e5e7eb;
+  padding: 60px 10% 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-brand h2 {
+  font-size: 2rem;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  font-size: 1rem;
+  color: #cbd5f5;
+}
+
+.footer-contact p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #e5e7eb;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-socials a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.footer-socials a:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.6);
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+}
+
+/* ============== RESPONSIVE ============== */
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
